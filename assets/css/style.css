@@ -100,6 +100,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 main {
   display: block;
@@ -152,6 +154,7 @@ h2 {
   width: 100%;
 }
 .header-menu {
+  display: flex;
   position: absolute;
   z-index: 2;
   top: 0;
@@ -194,7 +197,7 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
   letter-spacing: 0.1em;
-  justify-items: start;
+  margin-left: 57px;
 }
 .header-navbar__list {
   display: flex;
